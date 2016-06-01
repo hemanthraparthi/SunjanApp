@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Name"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:id="@+id/text" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Phone number"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:id="@+id/text11" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Length"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:id="@+id/text1"
+        android:layout_below="@+id/textView" />
+
+    <TextView
+        android:textColor="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Inside"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:id="@+id/text2"
+        android:layout_below="@+id/textView1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Buttom"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:id="@+id/text3"
+        android:layout_below="@+id/textView2" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Thies"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:id="@+id/text4"
+        android:layout_below="@+id/textView3" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Hips"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:id="@+id/text5"
+        android:layout_below="@+id/textView4" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Waist"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:id="@+id/text6"
+        android:layout_below="@+id/textView5" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Fullround"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:id="@+id/text7"
+        android:layout_below="@+id/textView6"
+        android:textColor="#000000" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:text="UPDATE"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:id="@+id/update"
+        android:layout_below="@+id/textView7"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#00000000"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:text="DELETE"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:id="@+id/delete"
+        android:layout_below="@+id/update"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#00000000"/>
+</LinearLayout>
